@@ -1,5 +1,5 @@
 # WassersteinDistance
-Rust implementation of Wasserstein Distance with floating points using Network Simplex algorithm. Modifications from https://github.com/URI-ABD/wasserstein. Floating point precision is managed such that a meaningful result will always be returned.
+Rust implementation of Wasserstein Distance with floating points using Network Simplex algorithm. Modifications from https://github.com/URI-ABD/wasserstein. Floating point precision is managed such that a meaningful result is always returned at the cost of accuracy. (Accuracy errors are still usually < f64::Epsilon)
 
 Usage: 
 1. Include Folder in rust project and toml. 
