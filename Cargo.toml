@@ -1,0 +1,10 @@
+[package]
+name = "wasserstein"
+version = "1.0.0"
+
+[dependencies]
+ndarray = "0.15.6"
+approx = "0.5.1"
+
+[build-dependencies]
+cc = "^1.0"
